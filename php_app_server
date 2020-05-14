@@ -1,0 +1,8 @@
+데이터베이스에 데이터 입력
+
+안드로이드에서 데이터 입력 예시 중 MainActivity.java 코드 중
+private static String IP_ADDRESS = "IP주소";
+IP주소에 포트포워딩 한 것까지 작성해야지 잘 됨(ex. xx.xx.xx.xx:1000) 설정해둔 포트포워딩 필수
+
+
+// https://webnautes.tistory.com/828
