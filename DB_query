@@ -1,3 +1,47 @@
- // mysql 접속문
- -> sudo mysql -root -p  // root 접속
- -> sudo mysql -u ___ -p // user 접속
+ // 1. mysql 접속문
+
+// root 접속
+ -> sudo mysql -root -p  
+
+// user 접속
+ -> sudo mysql -u ___ -p 
+
+// 2. 데이터베이스
+
+// 데이터베이스 생성
+-> CREATE DATABASE (db이름) default CHARACTER SET UTF8;
+
+// 데이터 베이스를 사용할 사용자 추가
+-> GRANT ALL PRIVILEGES ON study_db.* TO study_user@localhost IDENTIFIED BY 'study';
+-> mysql -u study_user -p
+-> USE study_db;
+
+// 테이블 생성
+-> CREATE TABLE professor 
+( 
+_id INT PRIMARY KEY AUTO_INCREMENT, 
+name VARCHAR(32) NOT NULL,
+belong VARCHAR(12) DEFAULT 'FOO',
+phone VARCHAR(12) 
+);
+
+
+
+
+// 3. db에서 table 이용
+
+// db 목록보기
+-> show databases;
+
+// db 사용
+-> use (db이름);
+
+// table 보기
+-> show tables;
+
+//필드 보기
+-> desc (table이름);
+
+
+
+// https://futurists.tistory.com/11
