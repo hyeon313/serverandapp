@@ -1,0 +1,3 @@
+ // mysql 접속문
+ -> sudo mysql -root -p  // root 접속
+ -> sudo mysql -u ___ -p // user 접속
