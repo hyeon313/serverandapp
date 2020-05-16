@@ -27,8 +27,7 @@ pass VARCHAR(12) NOT NULL,
 pass_confirm VARCHAR(12) NOT NULL,
 mail VARCHAR(32) NOT NULL,
 name VARCHAR(32) NOT NULL,
-phone INT NOT NULL,
-like VARCHAR(32)
+phone INT NOT NULL
 );
 
 // 완성 예상
