@@ -12,7 +12,7 @@
 -> CREATE DATABASE (db이름) default CHARACTER SET UTF8;
 
 // 데이터 베이스를 사용할 사용자 추가
--> GRANT ALL PRIVILEGES ON study_db.* TO study_user@localhost IDENTIFIED BY 'study';
+-> GRANT ALL PRIVILEGES ON (db이름).* TO (사용자이름)@localhost IDENTIFIED BY '비밀번호';
 -> mysql -u study_user -p
 -> USE study_db;
 
