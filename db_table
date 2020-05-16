@@ -1,6 +1,6 @@
 20.5.12.
 
-Mariadb 회원table
+Mariadb member_table
 1. 고객번호 (Customer number) = C_number
 2. 아이디 (id)
 3. 비밀번호 (password) = pass
@@ -17,6 +17,36 @@ Mariadb 회원table
 // 13. 사용자 포인트 
 // 14. 사용자 경험치 
 15. 관심매물..? = like
+
+// 5.16일 예비
+ CREATE TABLE member
+( 
+C_number INT PRIMARY KEY AUTO_INCREMENT, 
+id VARCHAR(32) NOT NULL,
+pass VARCHAR(12) NOT NULL,
+pass_confirm VARCHAR(12) NOT NULL,
+mail VARCHAR(32) NOT NULL,
+name VARCHAR(32) NOT NULL,
+phone INT NOT NULL,
+like VARCHAR(32),
+);
+
+// 완성 예상
+ CREATE TABLE member
+( 
+C_number INT PRIMARY KEY AUTO_INCREMENT, 
+id VARCHAR(32) NOT NULL,
+pass VARCHAR(32) NOT NULL,
+pass_confirm VARCHAR(12) DEFAULT 'FOO',
+mail VARCHAR(32) NOT NULL,
+name VARCHAR(32) NOT NULL,
+birthday 
+phone INT NOT NULL,
+join_date NOT NULL
+nickname
+like
+);
+
 
 Mariadb 매물table 
 //http://blog.tjsrms.me/mysql-%ED%9A%8C%EC%9B%90%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%82%B4%EA%B0%80-%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B5%AC%EC%A1%B0/
