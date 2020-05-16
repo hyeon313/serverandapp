@@ -1,22 +1,22 @@
 20.5.12.
 
 Mariadb 회원table
-1. 고객번호
-2. 아이디
-3. 비밀번호
-3-1. 비밀번호 확인
-4. 메일
-5. 이름
-6. 생년월일
-7. 휴대전화번호
-8. 가입일시
-9. 탈퇴여부
-10. 탈퇴사유
-11. 탈퇴일시
-12. 사용자 닉네임
-13. 사용자 포인트
-14. 사용자 경험치
-15. 관심매물..?
+1. 고객번호 (Customer number) = C_number
+2. 아이디 (id)
+3. 비밀번호 (password) = pass
+3-1. 비밀번호 확인 (password confirm) = pass_confirm
+4. 메일 (mail)
+5. 이름 (name)
+6. 생년월일 (birthday)
+7. 휴대전화번호 (phone)
+8. 가입일시 (join_date)
+// 9. 탈퇴여부 
+// 10. 탈퇴사유 
+// 11. 탈퇴일시 
+12. 사용자 닉네임 (Nickname) = nickname
+// 13. 사용자 포인트 
+// 14. 사용자 경험치 
+15. 관심매물..? = like
 
 Mariadb 매물table 
 //http://blog.tjsrms.me/mysql-%ED%9A%8C%EC%9B%90%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%82%B4%EA%B0%80-%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B5%AC%EC%A1%B0/
