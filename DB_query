@@ -39,9 +39,11 @@ phone VARCHAR(12)
 // table 보기
 -> show tables;
 
-//필드 보기
+// table 필드 보기
 -> desc (table이름);
 
+// table 값 보기
+-> select * from member;
 
 
 // https://futurists.tistory.com/11
