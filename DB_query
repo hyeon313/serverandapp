@@ -27,7 +27,6 @@ phone VARCHAR(12)
 
 
 
-
 // 3. db에서 table 이용
 
 // db 목록보기
